@@ -41,7 +41,7 @@ def craw_nems_headline():
         
         soup = BeautifulSoup(reponse.content, 'html.parser')
         
-        headline = soup.find_all('h2', class_= 'headline' )
+        headline = soup.find_all('p', class_= 'headline' )
         
         
         for i ,headline in enumerate(headline, 1 ):
