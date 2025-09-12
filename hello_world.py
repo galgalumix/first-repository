@@ -1,13 +1,13 @@
-def print_Hello():
-    print("Hello World!!")
-
-if __name__ =='__name__':
-    print_Hello()
-
-c= 123
-a= 14
-print(a+c)
+def add(x,y):
+    a = x +y 
+    return a
 
 
-def Test(x, y):
-
+def Print_kit():
+    print("kit")
+    
+    
+    
+if __name__ == '___name__':
+    Print_kit()
+    print(Print_kit)
