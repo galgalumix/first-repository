@@ -1,5 +1,5 @@
 
-print(Kai)
+print()
 def game_install():
     a = int(input("게임을 설치하시겠습니까? :"))
     if a == 1:
